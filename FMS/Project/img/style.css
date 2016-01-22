@@ -1,0 +1,143 @@
+@charset "utf-8";
+.wrapper {
+	/* [disabled]background-image: url(shadow.png); */
+	/* [disabled]background-repeat: no-repeat; */
+	width: 988px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+body {
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+	margin: 0px;
+	/* [disabled]background-color: #F5F5F5; */
+}
+.top {
+	height: 66px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.top-shadow {
+	height: 111px;
+	width: 988px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(shadow-top.png);
+	background-repeat: no-repeat;
+}
+
+
+.logo {
+	margin: 0px;
+	float: left;
+	height: 66px;
+	width: 409px;
+}
+.top_right {
+	margin: 0px;
+	float: right;
+	height: 66px;
+	width: 75px;
+}
+
+.menu_header {
+	height: 22px;
+	width: 960px;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #DBDBDB;
+	padding: 5px 0px;
+	background-color: #F3F3F3;
+}
+.menu_left {
+	/* [disabled]background-color: #E5E5E5; */
+	margin: 0px;
+	float: left;
+	width: auto;
+	padding: 3px 3px;
+}
+
+.menu_right {
+	/* [disabled]background-color: #E5E5E5; */
+	margin: 0px;
+	float: right;
+	width: auto;
+	padding: 3px;
+}
+.line {
+	background-color: #CCC;
+	padding: 0px;
+	float: left;
+	height: 22px;
+	width: 1px;
+	margin: 0px 3px;
+}
+
+.middle_body 
+{
+    height:450px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: auto;
+	padding: 0px 5px;
+}
+
+.middle_Shadow {
+	width: 988px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(shadow-middale.png);
+	background-repeat: repeat-y;
+	padding-bottom: 7px;
+	overflow: hidden;
+
+}
+
+
+.footer {
+	height: 77px;
+	width: 960px;
+	/* [disabled]margin-top: 7px; */
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #DBDBDB;
+	padding: 12px 0px;
+	background-color: #F7F7F7;
+	color: #000;
+	font-size: 12px;
+}
+
+.footer_shadow {
+	width: 988px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(shadow-bottom.png);
+	height: 106px;
+	
+}
+
